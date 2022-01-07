@@ -1,5 +1,6 @@
 {
   "name": "algorithm-app",
+  "homepage": "https://sarthakswaroop.github.io/algorithm-app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
