@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/algorithm-app/static/css/main.ecd6687c.css",
+    "main.js": "/algorithm-app/static/js/main.6e4da269.js",
+    "index.html": "/algorithm-app/index.html",
+    "main.ecd6687c.css.map": "/algorithm-app/static/css/main.ecd6687c.css.map",
+    "main.6e4da269.js.map": "/algorithm-app/static/js/main.6e4da269.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecd6687c.css",
+    "static/js/main.6e4da269.js"
+  ]
+}
