@@ -1,0 +1,105 @@
+.node {
+    width: 20px;
+    height: 20px;
+    outline: 1px solid rgb(66, 0, 128);
+    display: inline-block;
+}
+
+.start-node {
+    
+    background-color: rgb(20, 161, 28);
+}
+
+.finish-node {
+    background-color: red;
+    
+}
+
+.visited-node {
+    background-color: rgb(30, 100, 180);
+    animation-name: visitedAnimation;
+    animation-duration: 1.5s;
+    
+}
+
+@keyframes visitedAnimation{
+    0% {
+        transform: scale(0.5);
+        background-color: rgb(212, 0, 255);
+        border-radius: 100%;
+        outline: 0px;
+    }
+    
+    25% {
+        background-color: rgb(77, 0, 128);
+        border-radius: 100%;
+        outline: 0px;
+    }
+
+    50% {
+        background-color: rgb(153, 0, 255);    
+        outline: 0px;
+    }
+
+    75% {
+        transform: scale(1.2);
+        background-color: rgb(74, 42, 212);
+        outline: 0px;
+    }
+
+    100% {
+        transform: scale(1);
+        background-color: rgb(195, 23, 218);
+    }
+
+}
+
+.wall-node {
+    background: black;
+    animation-name: wallAnimation;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-out;
+    outline: 1px solid black;
+}
+
+@keyframes wallAnimation{
+    0% {
+        transform: scale(0.3);
+        background-color: gray;
+    }
+
+    75% {
+        transform: scale(1.2);
+        background-color: gray;
+    }
+
+    100% {
+        transform: scale(1);
+        background-color: black;
+    }
+}
+
+.path-node{
+    background: rgb(206, 209, 11);
+    animation-name: pathAnimation;
+    animation-duration: 1.5s;
+    outline: 1px solid rgb(79, 80, 2); 
+}
+
+@keyframes pathAnimation{
+    0% {
+        transform: scale(0.3);
+        background-color: rgb(76, 202, 175);
+        border-radius: 100%;
+    }
+
+    75% {
+        transform: scale(1.2);
+        background-color: plum;
+    }
+
+    100% {
+        transform: scale(1);
+        background-color: rgb(152, 221, 24);
+    }
+}

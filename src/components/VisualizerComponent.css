@@ -1,0 +1,26 @@
+table {
+    margin: auto;
+}
+
+.tr-height{
+    line-height: 13px;
+}
+
+.description{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+/*.visited-node {
+    background: green;
+}*/
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff !important;
+  }
+.btn-primary{
+    vertical-align: center;
+}
